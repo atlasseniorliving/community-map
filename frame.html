@@ -34,81 +34,75 @@
         color: black !important;
     }
 
-    button.google-maps,
-    button.website {
+    button.google-maps, button.website {
         font-size: 15px;
         border: none !important;
         background-color: #003151;
         width: fit-content;
         padding: 0px 10px;
         text-transform: capitalize;
+        margin-top: 0px;
     }
 
     button.website:hover {
         background-color: rgb(255, 174, 0);
-        <br />color: black;
-        <br />
+        color: black;
+       }
+
+    button.google-maps {
+        margin-top: 10px;
+        height: 40px;
+        width: 191px;
+        background-image: url(https://atlasseniorliving.com/wp-content/uploads/2023/04/google-maps-button.jpg);
     }
 
-    <br />button.google-maps {
-        <br />height: 40px;
-        <br />width: 191px;
-        <br />background-image: url(https://atlasseniorliving.com/wp-content/uploads/2023/04/google-maps-button.jpg);
-        <br />
+    button.facebook-maps {
+        background-image: url(https://atlasseniorliving.com/the-goldton-at-adelaide/wp-content/uploads/sites/44/2022/10/facebook-logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px;
+        border: none;
     }
-
-    <br />button.facebook-maps {
-        <br />background-image: url(https://atlasseniorliving.com/the-goldton-at-adelaide/wp-content/uploads/sites/44/2022/10/facebook-logo.png);
-        <br />background-repeat: no-repeat;
-        <br />background-position: center;
-        <br />background-size: 30px;
-        <br />border: none;
-        <br />background-color: white;
-        <br />color: #3B5998;
-        <br />
+        button.instagram-button {
+        background-image: url(https://atlasseniorliving.com/the-oscar-at-georgetown/wp-content/uploads/sites/42/2022/10/instagram-logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px;
+        border: none;
+        background-color: white;
     }
-
-    <br />img.com-img {
-        <br />height: 150px;
-        <br />
+        button.tiktok-button {
+        background-image: url(https://atlasseniorliving.com/the-oscar-at-georgetown/wp-content/uploads/sites/42/2022/10/tik-tok-logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30px;
+        border: none;
+        background-color: white;
     }
-
-    <br />.care {
-        <br />text-align: center;
-        <br />display: inline-block;
-        <br />padding: 5px;
-        <br />background: rgb(241, 241, 241);
-        <br />background: linear-gradient(0deg, rgba(241, 241, 241, 1) 0%, rgba(222, 222, 222, 1) 100%);
-        <br />font-weight: 600 !important;
-        <br />width: fit-content;
-        <br />border-radius: 5px;
-        <br />
+    img.com-img {
+        height: 150px;
     }
-
-    <br />
 </style>
 
-<!--COMMUNITIES INFO-->
+<!--START COMMUNITIES INFO-->
 <div class="community-info-box">
-    <h1 class="community-name">Legacy Reserve at Fritz Farm</h1>
-    <img class="com-img"
-        src="https://atlasseniorliving.com/wp-content/uploads/2022/10/atlas-senior-living-communities-legacy-ridge-at-fritz-farm.jpg" />
+    <h1 class="community-name">The Oscar at Georgetown</h1>
+    <img class="com-img" src="https://atlasseniorliving.com/wp-content/uploads/2022/10/atlas-senior-living-communities-the-oscar-at-georgetown.jpg"/>
     <h3 class="care-services">Care Services:</h3>
-    <h3>Personal Care Home | Memory Care | Independent Living</h3>
-    <p class="address">2700 Man O'War Drive, Lexington, KY, United States, Kentucky</p>
-
-    <h2>(859) 350 7370</h2>
-    <a href="https://atlasseniorliving.com/legacy-reserve-fritz-farm/"><button class="website">Website</button></a>
-    <a href="https://goo.gl/maps/QnJnnL9EaBeNyHPp7" target="_blank" rel="noopener"><button
-            class="google-maps">.</button></a>
-    <a href="https://www.facebook.com/LegacyReserve/" target="_blank" rel="noopener"><button
-            class="facebook-maps">.</button></a>
-
+    <h3>Independent Living | Assisted Living | Memory Care</h3>
+    <p class="address">3810 Williams Drive Georgetown, TX 78628</p>
+    <h2><a href="tel:3599801">(512) 359 9801</a></h2>
+    <a href="https://atlasseniorliving.com/the-oscar-at-georgetown/"><button class="website">Visit Website</button></a>
+    <br>
+    <a href="https://goo.gl/maps/QnJnnL9EaBeNyHPp7" target="_blank" rel="noopener"><button class="google-maps">.</button></a>
+    <br>
+    <a href="https://www.facebook.com/TheOscarAtGeorgetown" target="_blank" rel="noopener"><button class="facebook-maps">.</button></a>
+    <a href="https://www.instagram.com/oscargeorgetown/" target="_blank" rel="noopener"><button class="instagram-button">.</button></a>
+    <a href="https://www.tiktok.com/@oscargeorgetown" target="_blank" rel="noopener"><button class="tiktok-button">.</button></a>
 </div>
+<!--END COMMUNITIES INFO-->
 
-<!--COMMUNITIES INFO-->
-
-<!-- BUTTON REDIRECT
+<!-- START BUTTON REDIRECT
 <p id="result"></p>
 <button onclick="redirectToNewAtlasFormsPage()">This Page will be redirected automatically in 5 seconds</button>
 <script>
@@ -122,9 +116,7 @@
         document.location.href = 'https://atlasseniorliving.net/atlas-forms-downloads/';
     }
 </script>
-
--->
-
+END BUTTON REDIRECT-->
 
 <script>
     function redirectToNewFormsPage() {
@@ -132,4 +124,4 @@
     }
     setTimeout("redirectToNewFormsPage()", 5000);
 </script>
-    <p><strong>Note:</strong> You will be redirected to the new page in 5 sec.</p>
+<p><strong>Note:</strong> You will be redirected to the new page in 5 sec.</p>
