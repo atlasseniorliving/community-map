@@ -1,87 +1,135 @@
+<!--2023 Community Hotspot Selector-->
+<!--AUTHOR: Gabriel Rosales Montes-->
 
-    <!--2023 Community Hotspot Selector-->
-    <!--AUTHOR: Gabriel Rosales Montes-->
-
-
-
-    <style>
-    .community-info-box{
+<style>
+    .community-info-box {
         width: fit-content;
         background-color: rgb(255, 255, 255);
-        border:none;
+        border: none;
         padding: 20px;
-        border:none;
+        border: none;
         text-align: center;
     }
+
     h1.community-name {
         font-size: 20px;
-        font-weight: bold;    
+        font-weight: bold;
     }
+
     .community-info-box h3, .community-info-box h4 {
         font-size: small;
     }
+
     h3.care-services {
         padding-top: 10px;
         font-size: 20px;
         font-weight: bold;
     }
+
     h3, h4 {
         font-size: 20px;
     }
+
     p.address {
-        color: black!important;
+        color: black !important;
     }
-    button.google-maps, button.website {
+
+    button.google-maps,
+    button.website {
         font-size: 15px;
-        border: none!important;
+        border: none !important;
         background-color: #003151;
         width: fit-content;
         padding: 0px 10px;
         text-transform: capitalize;
     }
+
     button.website:hover {
         background-color: rgb(255, 174, 0);
-        color:black;
+        <br />color: black;
+        <br />
     }
-    button.google-maps {
-        height: 40px;
-        width: 191px;
-        background-image: url(https://atlasseniorliving.com/wp-content/uploads/2023/04/google-maps-button.jpg);
-    } 
-    button.facebook-maps {
-        background-image: url(https://atlasseniorliving.com/the-goldton-at-adelaide/wp-content/uploads/sites/44/2022/10/facebook-logo.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 30px;
-        border:none;
-        background-color: white;
-        color:#3B5998;
-    } 
-    img.com-img {
-        height: 150px;
-    }
-    .care {
-        text-align: center;
-        display: inline-block;
-        padding: 5px;
-        background: rgb(241,241,241);
-        background: linear-gradient(0deg, rgba(241,241,241,1) 0%, rgba(222,222,222,1) 100%);
-        font-weight: 600!important;
-        width: fit-content;
-        border-radius: 5px;
-    }
-    </style>
 
-    <!--COMMUNITIES INFO-->
-    <div class="community-info-box">
-        <h1 class="community-name">Spring Park at<br>Travelers Rest</h1>
-        <img src="https://atlasseniorliving.com/wp-content/uploads/2023/03/spring-park.png" class="com-img">
-        <h3 class="care-services">Care Services:</h2>
-        <h3>Assisted Living | Memory Care | Respite Care</h3>
-        <p class="address">925 N Main Street Travelers Rest, SC 29690</p>
-        <h2>(864) 610-2435</h2>
-        <a href="https://atlasseniorliving.com/spring-park-travelers-rest/"><button class="website">Website</button></a>
-        <a href="https://goo.gl/maps/LPfSbE9WgGBa4ikF6" target="_blank"><button class="google-maps">.</button></a>
-        <a href="https://www.facebook.com/springparkassistedliving" target="_blank"><button class="facebook-maps">.</button></a>
-    </div>
-    <!--COMMUNITIES INFO-->
+    <br />button.google-maps {
+        <br />height: 40px;
+        <br />width: 191px;
+        <br />background-image: url(https://atlasseniorliving.com/wp-content/uploads/2023/04/google-maps-button.jpg);
+        <br />
+    }
+
+    <br />button.facebook-maps {
+        <br />background-image: url(https://atlasseniorliving.com/the-goldton-at-adelaide/wp-content/uploads/sites/44/2022/10/facebook-logo.png);
+        <br />background-repeat: no-repeat;
+        <br />background-position: center;
+        <br />background-size: 30px;
+        <br />border: none;
+        <br />background-color: white;
+        <br />color: #3B5998;
+        <br />
+    }
+
+    <br />img.com-img {
+        <br />height: 150px;
+        <br />
+    }
+
+    <br />.care {
+        <br />text-align: center;
+        <br />display: inline-block;
+        <br />padding: 5px;
+        <br />background: rgb(241, 241, 241);
+        <br />background: linear-gradient(0deg, rgba(241, 241, 241, 1) 0%, rgba(222, 222, 222, 1) 100%);
+        <br />font-weight: 600 !important;
+        <br />width: fit-content;
+        <br />border-radius: 5px;
+        <br />
+    }
+
+    <br />
+</style>
+
+<!--COMMUNITIES INFO-->
+<div class="community-info-box">
+    <h1 class="community-name">Legacy Reserve at Fritz Farm</h1>
+    <img class="com-img"
+        src="https://atlasseniorliving.com/wp-content/uploads/2022/10/atlas-senior-living-communities-legacy-ridge-at-fritz-farm.jpg" />
+    <h3 class="care-services">Care Services:</h3>
+    <h3>Personal Care Home | Memory Care | Independent Living</h3>
+    <p class="address">2700 Man O'War Drive, Lexington, KY, United States, Kentucky</p>
+
+    <h2>(859) 350 7370</h2>
+    <a href="https://atlasseniorliving.com/legacy-reserve-fritz-farm/"><button class="website">Website</button></a>
+    <a href="https://goo.gl/maps/QnJnnL9EaBeNyHPp7" target="_blank" rel="noopener"><button
+            class="google-maps">.</button></a>
+    <a href="https://www.facebook.com/LegacyReserve/" target="_blank" rel="noopener"><button
+            class="facebook-maps">.</button></a>
+
+</div>
+
+<!--COMMUNITIES INFO-->
+
+<!-- BUTTON REDIRECT
+<p id="result"></p>
+<button onclick="redirectToNewAtlasFormsPage()">This Page will be redirected automatically in 5 seconds</button>
+<script>
+    function redirectToNewAtlasFormsPage() {
+        setTimeout(myURL, 5000);
+        var result = document.getElementById("result");
+        result.innerHTML = "<b>This Page will be redirected automatically";
+    }
+
+    function myURL() {
+        document.location.href = 'https://atlasseniorliving.net/atlas-forms-downloads/';
+    }
+</script>
+
+-->
+
+
+<script>
+    function redirectToNewFormsPage() {
+        window.location.replace("https://www.atlasseniorliving.net/atlas-files-hub");
+    }
+    setTimeout("redirectToNewFormsPage()", 5000);
+</script>
+    <p><strong>Note:</strong> You will be redirected to the new page in 5 sec.</p>
